@@ -1,0 +1,193 @@
+body{
+	margin: 8em;
+	display: block;
+}
+
+
+footer {
+    text-align: center;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    width: 100%;
+    padding-top: 15px;
+    background-color: saddlebrown;
+}
+
+.footer-links {
+    /* text-decoration: none; */
+    margin: 0 auto;
+    /* font-size: 1.5em; */
+    display: inline-block;
+    text-decoration: none;
+    float: none;
+    padding: none;
+    padding-left: 0;
+    padding-right: 0;
+    /* margin: 0; */
+}
+
+/*footer p{
+	display: inline-block;
+    margin-top: 10px;
+    color: #FFFFFF;
+    font-family: Courier;
+	text-align: center;
+	font-size: 16px;
+	margin: 0 0 10px;
+}*/
+
+/*.footer-links li{
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 5px;
+  /*float: left;*/
+}*/
+
+.footer-links a{
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  /*float: left;*/
+}
+
+.footer-links a:hover{
+  text-decoration: none;
+  color: #A186F0;
+}
+
+
+
+/*.footer-links li img{
+  cursor: pointer;
+}*/
+
+.copyright {
+    font-size: 20px;
+    line-height: inherit;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 5px;
+    display: inline;
+    /* float: right; */
+    margin-bottom: 20px;
+}
+
+.socialmedia {
+    width: 40%;
+    height: 40%;
+    vertical-align: middle;
+    border: 0;
+    padding: 3px;
+}
+
+.navbar-collapse{
+	display: inline;
+	text-decoration: none;
+	
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    /* padding: 0; */
+    width: 100%;
+    overflow: hidden;
+    background-color: antiquewhite;
+    font-size: 2.5em;
+    display: inline-block;
+    text-align: center;
+}
+
+li {
+    float: left;
+    text-align:center;
+}
+
+li a {
+    display: inline-block;
+    color: darkblue;
+    text-align: center;
+    padding: 10px 20px 20px 10px;
+    text-decoration: none;
+    /* font-weight: bold; */
+    font-family: Centaur;
+    font-size: 20px;
+    /* margin: 5px 0px 5px 200px; */
+}
+
+li a:hover{
+	background-color: white;
+}
+
+.navbar-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+  opacity: 0.8;
+}
+
+form {
+    background-color: darkslategray;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    width: 50%;
+    text-align: center;
+    margin: 10px auto;
+    border-radius: 50px;
+    font-size: 25px;
+}
+
+label {
+    display: block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: whitesmoke;
+    font-family: Gabriola;
+    font-size: 30px;
+}
+
+.form-input {
+    color: black;
+    font-weight: 500;
+    border-radius: 0;
+    line-height: 20px;
+    background-color: whitesmoke;
+    padding: 10px 10px 10px 1px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: 3px double saddlebrown;
+    font-family: gabriola;
+    font-size: 20px;
+    text-align: center;
+}
+
+#button {
+    color: darkslategray;
+    background-color: whitesmoke;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 7px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 700px){
+    li a{
+		font-size: 15px;
+	}
+	form {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    margin: 20px auto;
+    border-radius: 20px;
+	}
+}
